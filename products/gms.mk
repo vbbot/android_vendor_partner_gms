@@ -1,4 +1,5 @@
 PRODUCT_PACKAGES += \
+	AuroraStore \
 	GmsCore \
 	GsfProxy \
 	FakeStore \
