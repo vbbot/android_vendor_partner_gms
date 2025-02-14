@@ -22,3 +22,5 @@ LOCAL_REPLACE_PREBUILT_APK_INSTALLED := $(LOCAL_PATH)/$(LOCAL_MODULE).apk
 LOCAL_REQUIRED_MODULES := privapp-permissions-dev.ukanth.ufirewall.xml
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
+
+BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy

@@ -1,0 +1,10 @@
+type afwall, domain;
+app_domain(afwall)
+
+allow afwall self:capability { net_admin net_raw };
+allow afwall self:netlink_route_socket nlmsg_write;
+allow afwall self:udp_socket create_socket_perms;
+allow afwall self:rawip_socket create_socket_perms;
+
+allow afwall iptables_exec:file { read getattr open execute execute_no_trans };
+allow afwall system_file:file execute_no_trans;

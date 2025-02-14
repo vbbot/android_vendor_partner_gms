@@ -1,0 +1,1 @@
+/product/priv-app/AFWall(/.*)?           u:object_r:system_app_file:s0
