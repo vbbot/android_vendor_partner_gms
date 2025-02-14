@@ -39,7 +39,7 @@ def update_if_needed(module: str, release: ApkRelease):
 fdroid_main_repo = 'https://www.f-droid.org/repo'
 fdroid_microg_repo = 'https://microg.org/fdroid/repo'
 
-update_if_needed('AuroraStore', fdroid_recommended_release(fdroid_microg_repo, 'com.aurora.store'))
+update_if_needed('AuroraStore', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.store'))
 update_if_needed('FakeStore', fdroid_recommended_release(fdroid_microg_repo, 'com.android.vending'))
 update_if_needed('FDroid', fdroid_recommended_release(fdroid_main_repo, 'org.fdroid.fdroid'))
 update_if_needed('FDroidPrivilegedExtension', fdroid_recommended_release(fdroid_main_repo, 'org.fdroid.fdroid.privileged'))
