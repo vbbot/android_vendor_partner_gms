@@ -8,3 +8,5 @@ PRODUCT_PACKAGES += \
 	FDroid \
 	FDroidPrivilegedExtension \
 	additional_repos.xml
+
+RELAX_USES_LIBRARY_CHECK := true
